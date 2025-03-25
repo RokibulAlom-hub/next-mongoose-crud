@@ -11,7 +11,7 @@ const TopicsList = () => {
             </div>
             {/* edit and delete button  */}
             <div className='flex items-center text-white gap-1'>
-                <Link href={"/updateTopic"} className='bg-green-500 rounded-md p-2 text white'> Update </Link>
+                <Link href={"/updatetopic"} className='bg-green-500 rounded-md p-2 text white'> Update </Link>
                 <Deletepage/>
             </div>
         </div>
